@@ -5,7 +5,7 @@ export class Product {
     price: number;
     imageURL: string;
 
-    constructor(id, name = ' ', description = ' ', price = 0, imageURL = 'https://image.emojipng.com/757/4757.jpg'){
+    constructor(id: number , name = ' ', description = ' ', price = 0, imageURL = 'https://scx2.b-cdn.net/gfx/news/2018/1-rubikscube.jpg'){
         this.id = id;
         this.name = name;
         this.description = description;
