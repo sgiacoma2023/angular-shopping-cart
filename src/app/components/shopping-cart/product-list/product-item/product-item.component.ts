@@ -20,6 +20,7 @@ export class ProductItemComponent implements OnInit {
   }
 
   handleAddToCart()  {
+    console.debug("add to cart")
     this.msg.sendMsg(this.productItem)
   }
 
